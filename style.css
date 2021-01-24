@@ -386,3 +386,28 @@ bottom: 50px;
 .hero-wrap-item {
     top: 45%;
 }
+
+/**** full page*****/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #B22A0C;
+}
+
+
+/** select 2 **/
+
+.blink {
+    color: #FF0000;
+    font-size: 1.5em;
+    animation: blink-anim 1s ease 0s infinite alternate;
+}
+
+@keyframes blink-anim {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
