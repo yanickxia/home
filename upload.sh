@@ -1,4 +1,4 @@
-#/bin/bash
+#/usr/bin/zsh
 
 tmp_dir=$(mktemp -d)
 rsync -rv --exclude=.git . $tmp_dir
